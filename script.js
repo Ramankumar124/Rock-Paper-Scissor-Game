@@ -73,6 +73,7 @@ let userWin=true;
  // draw function
 function gameDraw() {
     console.log("the game  is draw ");
+    msg.innerText="The Game is Draw";
 }
 
 const showWinner=(userWin,userOption,comOption)=>{
